@@ -1,0 +1,39 @@
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "MOD MENU V2👾 " .. Fluent.Version,
+    TabWidth = 160, Size = UDim2.fromOffset(580, 460), Theme = "Dark"
+})
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "script" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+}
+
+Tabs.Main:AddParagraph({ Title = "TODO ANT BAN 🛡️", Content = "This is a paragraph.\nSecond line!" })
+
+Tabs.Main:AddButton({ Title = "FPS BOOSTðŸ’¯🛡️", Callback = function() 
+loadstring(game:HttpGet("https://pastebin.com/raw/8YZ2cc6V"))()
+end })
+
+Tabs.Main:AddButton({ Title = "FLY 🛡️", Callback = function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end })
+
+
+Tabs.Main:AddButton({ Title = "FE chat bypasser🛡️", Callback = function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+end })
+
+Tabs.Main:AddButton({ Title = "AIMBOT V2 + ANT KICK", Callback = function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xxxxxthefox/ffoe/main/obf_AZ9M9y360Xx7iY5m93868d5z4u0A8Jh98BJvzJe5999G2iGKr04fk2sgtJH1hrD1.lua.txt"))()
+end })
+
+Tabs.Main:AddButton({ Title = "ANT KICK V1🛡️", Callback = function() 
+loadstring(jogo:HttpGet("https://pastebin.com/raw/2gKk7D9h", verdadeiro))()
+end })
+
+
+Tabs.Main:AddButton({ Title = "AUTO FRAM CAIXINHA 🛡️", Callback = function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/offbernardo/Floripa/refs/heads/main/Caixa"))()
+end })
